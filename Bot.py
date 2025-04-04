@@ -12,10 +12,10 @@ BOT_TOKEN = 'BOT_TOKEN'
 CREDENTIALS_FILE = os.path.abspath("details-of-registered-users-4b69d0c0cf11.json")
 
 
-# Замените на ID вашей Google Sheets таблицы
+# ID Google Sheets таблицы
 SPREADSHEET_ID = '10VZltxul4XS5VCHiA9-GeMvA58W-I_N0nzzem7Nsz5Q'
 
-# Замените на название листа в таблице
+# название листа в таблице
 WORKSHEET_NAME = 'Лист1'
 
 bot = telebot.TeleBot(BOT_TOKEN)
